@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "typescript": "^3.5.3",
-    "funk-js-agent": "../funk-js-agent"
+    "funk-agent": "0.0.1",
+    "typescript": "^3.5.3"
   }
 }
