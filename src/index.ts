@@ -20,4 +20,19 @@ setInterval(() => {
     time: new Date(Date.now()),
     type: MessageType.Log,
   }])
+
+  con.sendSugar({
+    attr: {
+      container: "Test",
+      hostname: "spezial host",
+
+    },
+    data: [{
+      message: "high obj",
+      time: new Date(Date.now()),
+      request_time: 0.002,
+      request_type: "ms",
+    }],
+    searchindex: "test-js-agent-sugar"
+  })
 }, 3000)
